@@ -1,0 +1,31 @@
+{
+  "name": "cowos-api",
+  "version": "1.0.0",
+  "description": "cowos api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:server": "nodemon server.js"
+  },
+  "keywords": [
+    "cowos",
+    "api",
+    "coworking",
+    "space",
+    "incubator"
+  ],
+  "author": "Niranjan Subramanyam",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.2",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.3.7",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.5"
+  }
+}
